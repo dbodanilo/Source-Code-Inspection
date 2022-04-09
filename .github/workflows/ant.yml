@@ -5,8 +5,10 @@ name: Java CI
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
+    branches: 
+    - master
+    - gelucasAmaral-patch-1
+    pull_request:
     branches: [ master ]
 
 jobs:
