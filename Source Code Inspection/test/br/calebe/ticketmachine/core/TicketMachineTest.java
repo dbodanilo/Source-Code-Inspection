@@ -1,4 +1,4 @@
-package br.calebe.ticketmachine.test;
+package br.calebe.ticketmachine.core;
 
 import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
