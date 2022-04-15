@@ -50,7 +50,19 @@ public class TicketMachineTest {
 
     @Test
     public void imprimirTest() {
+        int valorBilhete = 5;
+        int saldo = 5;
+        int result = "*****************\n*** R$ " + saldo + ",00 ****\n*****************\n";
         
+        TicketMachine tM = new TicketMachine(valorBilhete);
+        try {
+            tM.inserir(quantiaInserida);
+            
+            Assert.assertEquals(result, tM.imprimir());
+        } catch (Exception e) {
+            e.printStackTrace();
+            Assert.fail();
+        }
     }
 
 }
