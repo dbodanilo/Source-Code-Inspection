@@ -1,4 +1,4 @@
-Source-Code-Inspection [![Build Status](https://travis-ci.org/Prof-Calebe/Source-Code-Inspection.svg?branch=master)](https://travis-ci.org/Prof-Calebe/Source-Code-Inspection)
+Source-Code-Inspection [![Build Status](https://app.travis-ci.com/dbodanilo/Source-Code-Inspection.svg?branch=master)](https://app.travis-ci.com/dbodanilo/Source-Code-Inspection)
 ======================
 
-Link para o Travis-CI: https://travis-ci.org/Prof-Calebe/Source-Code-Inspection
+Link para o Travis-CI: https://app.travis-ci.com/dbodanilo/Source-Code-Inspection
