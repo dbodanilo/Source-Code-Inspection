@@ -1,7 +1,7 @@
 #!/bin/bash
 
 _PWD=`pwd`
-CopyLibs=$_PWD/lib/org-netbeans-modules-java-j2seproject-copylibstask.jar
+CopyLibs="$_PWD/lib/org-netbeans-modules-java-j2seproject-copylibstask.jar:$_PWD/lib/junit-4.13.2.jar:$_PWD/lib/hamcrest-core-1.3.jar"
 
 CLASSPATH=$CLASSPATH:$CopyLibs:
 export CLASSPATH
